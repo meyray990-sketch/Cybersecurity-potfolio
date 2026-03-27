@@ -1,0 +1,10 @@
+Project: Detect malicious PowerShell activity in Splunk
+
+What you’ll do:
+Ingest Windows logs (Event ID 4688 / PowerShell logs)
+Detect suspicious commands (e.g., encoded commands)
+
+ Example query:
+index=main sourcetype=WinEventLog:Security
+| search powershell OR cmd.exe
+| stats count by CommandLine, user
