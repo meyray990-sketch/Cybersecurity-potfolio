@@ -1,0 +1,11 @@
+Project: Correlate logs across multiple sources
+
+ What you’ll do:
+Ingest:
+Linux logs (auth.log)
+Windows logs (if possible)
+Detect same IP across systems
+
+ Example:
+index=main
+| stats count by src, host
