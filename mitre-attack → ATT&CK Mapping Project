@@ -1,0 +1,13 @@
+Project: Map multiple detections to MITRE
+
+ What you’ll do:
+Map your existing detections:
+
+Detection	MITRE
+SSH brute force	T1110
+PowerShell abuse	T1059
+Port scanning	T1046
+
+ Deliverable:
+Create a table like:
+Technique | Detection | Data Source
