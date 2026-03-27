@@ -1,0 +1,10 @@
+Project: Detect logins from impossible locations
+
+What you’ll do:
+Simulate logins from different IPs
+Use geo enrichment
+
+ Example:
+index=main
+| iplocation src
+| stats values(Country) by user
