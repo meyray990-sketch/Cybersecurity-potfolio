@@ -1,0 +1,12 @@
+Project: Simulate SOC Tier 1 workflow
+
+What you’ll do:
+Generate multiple alerts:
+Failed logins
+Suspicious processes
+
+Write:
+Triage notes
+Escalation decision
+ Deliverable:
+Mini report: Alert → Investigation → Decision
