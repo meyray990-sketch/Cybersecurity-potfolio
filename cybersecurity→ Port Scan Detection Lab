@@ -1,0 +1,12 @@
+cybersecurity → Port Scan Detection Lab
+ Project: Detect scanning activity
+
+What you’ll do:
+Use nmap to scan your machine
+Capture logs
+Detect scanning behavior
+
+ Example:
+index=main
+| stats count by src, dest_port
+| where count > 10
